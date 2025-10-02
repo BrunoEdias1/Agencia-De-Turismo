@@ -1,0 +1,19 @@
+.main-nav {
+  display: grid;
+  margin: 60px;
+  justify-self: center;
+  width: 1500px;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-pergunta {
+  font-weight: 700;
+  font-size: 2rem;
+  grid-column: 1 / -1;
+  gap: 100px;
+}
+.turismo-imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
